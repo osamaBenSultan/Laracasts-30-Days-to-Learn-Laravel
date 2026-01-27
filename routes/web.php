@@ -22,6 +22,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/posts', function () {
+    return view('posts');
+});
+
 
 
 
